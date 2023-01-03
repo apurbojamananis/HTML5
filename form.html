@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      label {
+        display: block;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Welcome to Programing Language Club</h2>
+    <form action="">
+      <label for="name"
+        >Your name
+        <input type="text" name="name" id="name" />
+      </label>
+
+      <label for="email"
+        >Your email
+        <input type="email" name="email" id="email" />
+      </label>
+
+      <fieldset>
+        <legend>Select Front end Library</legend>
+        <label for="React">
+          <input type="checkbox" name="library" id="React" />
+          React
+        </label>
+        <label for="Vue">
+          <input type="checkbox" name="library" id="Vue" />
+          Vue
+        </label>
+        <label for="Angular">
+          <input type="checkbox" name="library" id="Angular" />
+          Angular
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Select One Language</legend>
+
+        <label for="javascript">
+          <input type="radio" name="language" id="javascript" />
+          Javascript
+        </label>
+        <label for="python">
+          <input type="radio" name="language" id="python" />
+          Python
+        </label>
+        <label for="java">
+          <input type="radio" name="language" id="java" />
+          Java
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Special Instruction</legend>
+        <label for="message">
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </label>
+      </fieldset>
+      <input type="reset" value="reset" />
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>
