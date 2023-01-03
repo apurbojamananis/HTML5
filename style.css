@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  width: 1320px;
+}
+
+.container {
+  background-color: aquamarine;
+}
+h1 {
+  color: brown;
+  text-align: center;
+  padding: 20px 1px;
+}
+
+.audio-control {
+  border-top: 1px solid black;
+  text-align: center;
+  color: brown;
+}
+
+audio {
+  padding: 10px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+.video-control {
+  border-top: 1px solid black;
+  text-align: center;
+  color: brown;
+}
+video {
+  padding: 10px 0px;
+  margin: 0 auto;
+  display: block;
+}
